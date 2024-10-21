@@ -26,9 +26,6 @@ There are two ways to run the application: using [Docker](https://www.docker.com
 
 ### Running with Docker
 
-<details>
-<summary>See details</summary>
-
 **1-** Download and install Docker: https://docs.docker.com/get-docker/
 
 **2-** Once the installation is complete, verify that Docker is running. Open your preferred terminal and execute the commands below:
@@ -67,12 +64,7 @@ $ docker-compose up --build
 
 **5-** That's it! The application is now accessible at the following URL: http://localhost:4000/
 
-</details>
-
 ### Running locally with ASDF
-
-<details>
-<summary>See details</summary>
 
 **1-** Download and install ASDF: https://asdf-vm.com/guide/getting-started.html
 
@@ -151,8 +143,6 @@ $ iex -S mix phx.server # Starts the Phoenix Endpoint with debugging
 ```
 
 **10-** That's it! The application is now accessible at the following URL: http://localhost:4000/
-
-</details>
 
 ## API Endpoints
 
